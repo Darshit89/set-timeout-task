@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+
+  background-color: #eee;
+
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.card span {
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.card .read {
+  background: green;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.card .unread {
+  background: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
